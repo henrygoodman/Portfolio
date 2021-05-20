@@ -2,6 +2,19 @@ doctype html
 html
   head
     title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet" href="bootstrap-5.0.1-dist/css/bootstrap.css")
+    script(script src="/bootstrap/dist/jquery/jquery.js")
   body
+    nav.navbar.navbar-expand-lg.navbar-light.bg-light
+      .container-fluid
+        a.navbar-brand(href='#') Navbar
+        button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarNavAltMarkup' aria-controls='navbarNavAltMarkup' aria-expanded='false' aria-label='Toggle navigation')
+          span.navbar-toggler-icon
+        #navbarNavAltMarkup.collapse.navbar-collapse
+          .navbar-nav
+            a.nav-link.active(aria-current='page' href='#') Home
+            a.nav-link(href='#') Features
+            a.nav-link(href='#') Pricing
+            a.nav-link.disabled(href='#' tabindex='-1' aria-disabled='true') Disabled
+    div.container.listing-reg
     block content
