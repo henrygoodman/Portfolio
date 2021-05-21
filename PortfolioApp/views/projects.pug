@@ -1,7 +1,14 @@
 extends layout
-
 block content
-  h1(align="CENTER")=title
-  p(align="CENTER") List of all my projects over the years
 
+  div(class="content-block")
+    div(class="image-content")
+      img(class="image-content-src" src="images/UTS_eRes_SES1A.png")
+    div(class="content-text")
+      h2(style="margin-bottom: 20px") eRestaurant 
+      p First university group project building a web application using Express with EJS views and MongoDB storage.
+      p Back-end contribution building database interface and handling all business logic.
+      a(href="http://eres.herokuapp.com" target="_blank") Click here to check it out.
+
+  div(class="footer")
 

@@ -12,15 +12,80 @@
 }
 
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background: var(--charcoal);
+  background: #000002;
 }
 
-a {
-  color: #00B7FF;
-}
-
-h1, p {
+h1, h2, p, a {
   color: white;
+}
+
+.welcome-title-card {
+  position: fixed;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title-card {
+  margin-top: 40px;
+  margin-bottom: 80px;
+  text-align: center;
+  position: static;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  margin-top: 30px;
+  position: static;
+  width: 800px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-section {
+  margin-top: 50px;
+  position: static;
+  width: 800px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.content-block {
+  position: relative;
+  margin-bottom: 40px;
+  width: (800-6) px;
+  height: 250px;
+}
+
+.image-content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 250px;
+  float: left;
+  object-fit: cover;
+}
+
+.image-content-src {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 250px;
+  height: 250px;
+  float: left;
+  object-fit: cover;
+}
+
+.content-text {
+  float: right;
+  padding: 10px;
+  height: 250px;
+  width: 522px;
 }
