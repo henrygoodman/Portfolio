@@ -15,8 +15,12 @@ body {
   background: #000002;
 }
 
-h1, h2, p, a {
+h1, h2, p {
   color: white;
+}
+
+a {
+  color: lightblue;
 }
 
 .welcome-title-card {
